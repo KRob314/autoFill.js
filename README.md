@@ -26,6 +26,42 @@ Have the fields auto populate by calling `autoFill.SetFields()` and pass in your
 ```js
 autoFill.SetFields(fieldsAndTypes)
 ```
+## All data types 
+```js
+ fieldTypes:
+            {
+                firstName: "firstName",
+                lastName: "lastName",
+                fullName: "fullName",
+                street: "street",
+                city: "city",
+                state: "state",
+                zip: "zip",
+                creditCard: "creditCard",
+                phone: "phone",
+                email: "email",
+                radioButton: "radioButton",
+                checkBox: "checkBox",
+                date: "date",
+                money: "money",
+                wholeNumber: "wholeNumber",
+                decimal: "decimal",
+                text: "text"
+            }
+```
 
+##All config options 
+
+```js
+config:
+            {
+                "maxNumberSize": 100,
+                "maxDecimalSize": 100,
+                "decimalPrecision": 2,
+                "dateFormat": "toLocaleDateString", /*toLocaleDateString, toDateString, GMT, mm/dd/yyyy */
+                "startDate": new Date(1975, 0, 1),
+                "endDate": new Date()
+            }
+```
 
 
