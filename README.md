@@ -1,5 +1,5 @@
 # autoFill.js
-dev utility to auto fill form fields when doing manual tests, to avoid the tedious task of typing everything in. 
+a javascript dev utility to auto fill form fields when doing manual tests, to avoid the tedious task of typing everything in. 
 
 ##Usage
 Add the script to your page (no dependencies, Bootstrap and jQuery are only included for the layout of the sample page) 
